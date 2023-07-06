@@ -4,5 +4,13 @@ spring:
     username: jwtsong
     password: thdtkdrms123
     driver-class-name: org.mariadb.jdbc.Driver
-
-
+  jpa:
+    hibernate:
+      ddl-auto: create
+    properties:
+      hibernate:
+        show_sql: true
+        format_sql: true
+jwt:
+  header: Authorization
+  secret: bXktbmFtZS1pcy1ieWVvbmdpbC1oZWxsby1qd3QtaGFoYWhhLW15LW5hbWUtaXMtYnllb25naWwtaGVsbG8tand0LWhhaGFoYQ==
